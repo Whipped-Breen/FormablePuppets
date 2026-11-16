@@ -1,0 +1,97 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+gleichschaltung_usa = {
+	unlock_national_focus = USA_reestablish_the_gold_standard
+	complete_national_focus = USA_america_first
+
+	set_temp_variable = { num_states = num_owned_controlled_states }
+	set_variable = { senators_total = num_states }
+	set_variable = { senators_support = num_states }
+	if = {
+		limit = {
+			owns_state = 357
+		}
+		add_to_variable = { senators_total = 5 }
+		add_to_variable = { senators_support = 5 }
+	}
+	if = {
+		limit = {
+			AND = {
+				owns_state = 468
+				owns_state = 466
+			}
+		}
+		add_to_variable = { senators_total = -1 }
+		add_to_variable = { senators_support = -1 }
+	}
+	if = {
+		limit = {
+			AND = {
+				owns_state = 276
+				owns_state = 682
+			}
+		}
+		add_to_variable = { senators_total = -1 }
+		add_to_variable = { senators_support = -1 }
+	}
+	if = {
+		limit = {
+			AND = {
+				owns_state = 331
+				owns_state = 332
+			}
+		}
+		add_to_variable = { senators_total = -1 }
+		add_to_variable = { senators_support = -1 }
+	}
+	if = {
+		limit = {
+			owns_state = 464
+		}
+		add_to_variable = { senators_total = 1 }
+		add_to_variable = { senators_support = 1 }
+	}
+	USA_congress_get_quorum = yes
+	USA_recalc_congress_icon_frames = yes
+
+	USA_congress_large_support = yes
+}
+
+gleichschaltung_usa_add_state = {
+	add_to_variable = { senators_total = 1 }
+	add_to_variable = { senators_support = 1 }
+	USA_congress_get_quorum = yes
+	USA_recalc_congress_icon_frames = yes
+}
+
+gleichschaltung_usa_unadd_state = {
+	add_to_variable = { senators_total = -1 }
+	add_to_variable = { senators_support = -1 }
+	USA_congress_get_quorum = yes
+	USA_recalc_congress_icon_frames = yes
+}
+
+
+on_daily = {
+
+}
+
+#on_daily_USA = {
+#	# you can specify an on daily action for a specific country
+#}

@@ -1,0 +1,3 @@
+formable_puppets = {
+	icon = generic_political_actions
+}

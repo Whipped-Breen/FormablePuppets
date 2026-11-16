@@ -1,0 +1,54 @@
+characters={
+	RSA_john_charles_vivian={
+		name="John Charles Vivian"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RSA_donald_warner={
+		name="Donald Warner"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_8"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1954.8.14.12"
+			id=-1
+		}
+	}
+	RSA_braxton_houston={
+		name="Braxton Houston"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1952.8.14.12"
+			id=-1
+		}
+	}
+	RSA_raphael_blair={
+		name="Raphael Blair"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Generic_land_4.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1949.8.14.12"
+			id=-1
+		}
+	}
+}

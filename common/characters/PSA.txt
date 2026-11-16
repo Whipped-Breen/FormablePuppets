@@ -1,0 +1,57 @@
+characters={
+	PSA_naruhiko_higashikuni={
+		name="Naruhiko Higashikuni"
+		portraits={
+			civilian={
+				large="GFX_portrait_JAP_naruhiko_higashikuni"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ warrior_code eager_collaborator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PSA_earl_warren={
+		name="Earl Warren"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Europe_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ ideological_crusader eager_collaborator }
+			expire="1953.8.14.12"
+			id=-1
+		}
+	}
+	PSA_jerome_seward={
+		name="Jerome Seward"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=anarchist_communism
+			expire="1947.8.14.12"
+			id=-1
+		}
+	}
+	PSA_hinchie_armistead={
+		name="Hinchie Armistead"
+		portraits={
+			civilian={
+				large="GFX_Portrait_USA_Generic_navy_1"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits={ silent_workhorse fortification_engineer }
+			expire="1958.8.14.12"
+			id=-1
+		}
+	}
+}

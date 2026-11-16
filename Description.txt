@@ -1,0 +1,3 @@
+"In order to fully harness the power of the nations under our control we must merge them to form miniature superpowers and make our governance of them simpler."
+
+Allows Overlord States to merge certain puppet nations into 'super puppets' if they control all the counties required in order to make them more powerfull (and make the map look more appealing).

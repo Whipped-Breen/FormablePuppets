@@ -1,0 +1,34 @@
+on_actions = {
+
+	on_puppet = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						tag = PSA
+					}
+					FROM = {
+						tag = JAP
+					}
+				}
+				set_cosmetic_tag = PSA_JAP
+			}
+		}
+	}
+
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						tag = PSA
+					}
+					FROM = {
+						tag = JAP
+					}
+				}
+				set_cosmetic_tag = PSA_JAP
+			}
+		}
+	}
+}
