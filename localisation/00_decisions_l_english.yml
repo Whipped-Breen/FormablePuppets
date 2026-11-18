@@ -187,7 +187,17 @@
  NAP_american_surrender.4.desc:0 "Following the stunning victory of German forces, the time has come to destroy the last vestiges of democracy in America. Even now, the name of George Washington disgraces a major citiy in the new German America, mocking the soldiers who gave their lives to take it.\n\nThe "Assosciation of Veterans of the Weltkrieg" have presented the government with a suggestion to rectify this horrible state of affairs."
  NAP_american_surrender.4.a:0 "Let us honor the heroes of the last war!"
  NAP_american_surrender.4.b:0 "What a preposterous suggestion!"
- 
- PSA_fascism_party:0 "Imperial Rule Assistance Association"
+
+ PSA_fascism_party:0 "IRAA"
+ PSA_fascism_party_long:0 "Imperial Rule Assistance Association"
+ PSA_communism_party: "Communist Party PSA"
+ PSA_democratic_party: "Cal. Democratic Party"
+ PSA_democratic_party_long: "California Democratic Party"
+
  RSA_neutrality_party:0 "Neutrality Party"
+ RSA_democratic_party:0 "Democratic Party"
+ RSA_communism_party: "RMCP"
+ RSA_communism_party_long: "Rocky Mountains Communist Party"
+ RSA_democratic_party: "Democratic Party" 
+
  USA_GER_fascism_party:0 "Amerikadeutscher Bund"
